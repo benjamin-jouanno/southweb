@@ -46,6 +46,17 @@ section {
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
+
+    animation-name: bounce-background;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    /* For Chrome & Safari */
+   -webkit-animation-name: bounce-background;
+   -webkit-animation-timing-function:ease-in-out;
+   -webkit-animation-duration:2s;
+   -webkit-animation-iteration-count:infinite;
 }
 #section2 {
     background-image: url(../assets/transition.svg);
@@ -133,4 +144,17 @@ span {
     font-size: 8vh;
     margin-top: 65vh;
     z-index: 1;
+}
+
+
+@keyframes bounce-background {
+    from {
+        background-position: center;
+    }
+    50% {
+        background-position-y: 10vh;
+    }
+    to {
+        background-position: center;
+    }
 }
