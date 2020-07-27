@@ -5,6 +5,11 @@
     border: 0;
 }
 
+body {
+    background: rgb(81, 135, 232);
+    background: linear-gradient(90deg, #fb7ade 0%, #fd5a57 100%);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -20,7 +25,10 @@ section {
 section:nth-child(1) {
 }
 section:nth-child(2) {
-    background-color: #ff0;
+    background-image: url(../assets/transition.svg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+
 }
 section:nth-child(3) {
     background-color: #0ff;
@@ -44,7 +52,7 @@ span {
 
 .landing-page {
     background: rgb(81, 135, 232);
-    background: linear-gradient(90deg, #fb7ade 0%,#fd5a57 100%);
+    background: linear-gradient(90deg, #fb7ade 0%, #fd5a57 100%);
 }
 
 .section-title {
@@ -86,7 +94,11 @@ span {
     height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+.image-zone {
+    text-align: center;
 }
 
 .studio {
