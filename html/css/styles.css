@@ -4,6 +4,26 @@
     border: 0;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fd5a57;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
 body {
     background: rgb(81, 135, 232);
     background: linear-gradient(90deg, #fb7ade 0%, #fd5a57 100%);
