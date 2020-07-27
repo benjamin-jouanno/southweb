@@ -22,19 +22,19 @@ header {
 section {
     height: 100vh;
 }
-section:nth-child(1) {
+#section1 {
     background-image: url(../assets/title.png);
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
 }
-section:nth-child(2) {
+#section2 {
     background-image: url(../assets/transition.svg);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
 
 }
-section:nth-child(3) {
+#section3 {
     background-color: #0ff;
 }
 
