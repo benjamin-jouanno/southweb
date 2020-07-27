@@ -44,7 +44,7 @@ span {
 
 .landing-page {
     background: rgb(81, 135, 232);
-    background: linear-gradient(153deg, rgba(81, 135, 232, 1) 0%,rgb(3, 39, 103) 100%);
+    background: linear-gradient(90deg, #fb7ade 0%,#fd5a57 100%);
 }
 
 .section-title {
